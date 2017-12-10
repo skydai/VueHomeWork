@@ -1,13 +1,12 @@
-<h1>Vue2 implement googleMapMarker<h1>
-<hr />
-<h4>
+<h2>Vue2 implement googleMapMarker</h2>
+<br>
 <ol>
-<li>git clone https://github.com/skydai/VueHomeWork.git</li>
+<li>git clone 'github.com/skydai/VueHomeWork.git'</li>
 <li>cd VueHomeWork</li>
 <li>npm install</li>
 <li>npm run dev</li>
 </ol>
-</h4>
+</h6>
 <h2>
 <a href="http://172.96.208.67/static/index.html">Demo</a>
 <h2>
