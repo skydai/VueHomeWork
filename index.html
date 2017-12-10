@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBzVQ7KWyGnrhc6A-FresFfdb6PxVrsTfw&sensor=true_OR_false"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >     
+    <!-- for Packaging optimization -->
+    <script src="//cdn.bootcss.com/vue/2.2.5/vue.min.js"></script>
+    <script src="//cdn.bootcss.com/vue-router/2.3.0/vue-router.min.js"></script>
+    <script src="//cdn.bootcss.com/vuex/2.2.1/vuex.min.js"></script>
+    <script src="//cdn.bootcss.com/axios/0.15.3/axios.min.js"></script>
+    <!-- google map api key -->
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBzVQ7KWyGnrhc6A-FresFfdb6PxVrsTfw&sensor=true_OR_false&libraries=places&callback=initMap"></script>
     <title>VueGoogleMapsMarker</title>
   </head>
   <body>
     <div id="app">
     </div>
-    <!-- built files will be auto injected -->
   </body>
 </html>

@@ -1,5 +1,6 @@
 <template>
-  <div class="google-map" :id="mapName"></div>
+  <div class="google-map" :id="mapName">
+  </div>
 </template>
 
 <script>
@@ -55,4 +56,5 @@ export default {
   margin: 0 auto;
   background: gray;
 }
+
 </style>
